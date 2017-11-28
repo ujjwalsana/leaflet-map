@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.leaflet-container {
+  height: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+.my-div-icon{
+  background: url('http://localhost:5000/circle?bodyColor=%23ff5454');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px !important;
+  height: 60px !important;
+  opacity:.8
+}
+.my-div-icon2{
+  background: url('http://localhost:5000/circle?bodyColor=%23800040');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px !important;
+  height: 60px !important;
+  opacity:.8
+}
+.my-div-icon3{
+  background: url('http://localhost:5000/circle?bodyColor=%23008080');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px !important;
+  height: 60px !important;
+  opacity:.8
+}
+.my-div-icon4{
+  background: url('http://localhost:5000/circle?bodyColor=%23ffa500');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px !important;
+  height: 60px !important;
+  opacity:.8
+}
